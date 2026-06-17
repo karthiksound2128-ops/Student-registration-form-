@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500;600;700;800&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+     font-family: 'Orbitron', sans-serif;
+      background:#020617;
+    color:#000001;
+    min-height:100vh;
+    padding:30px;
+}
+
+h1{
+    font-size:32px;
+    font-weight:800;
+    margin-bottom:20px;
+    color: white;
+}
+
+/* FORM CONTAINER */
+
+#input-container{
+    width:90%;
+    max-width:700px;
+    background:#111827;
+    border-radius:16px;
+    padding:25px;
+    border:1px solid #1e293b;
+    color: rgb(226, 216, 216);
+}
+
+/* TABLES */
+
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+th{
+    background:#22c55e;
+    color:white;
+    font-weight:700;
+    padding:14px;
+}
+td{
+    padding:12px;
+    border:1px solid #334155;
+    color: white;
+}
+
+/* INPUTS */
+
+input,
+select{
+    width:100%;
+    padding:12px;
+    border:none;
+    border-radius:8px;
+    background:#1e293b;
+    color: white;
+    font-size:14px;
+    font-weight:500;
+}
+
+input::placeholder{
+     color:#cbd5e1;
+}
+
+input:focus,
+select:focus{
+    outline:none;
+    border:2px solid #22c55e;
+}
+
+/* BUTTONS */
+
+button{
+    background:#22c55e;
+    color: black;
+    border:none;
+    padding:12px 25px;
+    border-radius:10px;
+    font-size:15px;
+    font-weight:700;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+button:hover{
+    background:#16a34a;
+    transform:translateY(-2px);
+}
+
+/* STUDENT DATA TABLE */
+
+#data-table{
+    width:95%;
+    margin-top:20px;
+    background:#111827;
+    border-radius:12px;
+    overflow:hidden;
+}
+
+/* REPORT TABLE */
+
+#report-table{
+    width:95%;
+    margin-top:20px;
+    background:#111827;
+    border-radius:12px;
+    overflow:hidden;
+}
+
+/* ROW HOVER */
+
+#data-table tr:hover td{
+    background:#1e293b;
+}
+
+#report-table tr:hover td{
+    background:#1e293b;
+}
+
+/* SECTION SPACING */
+
+#add-student{
+    margin-top:15px;
+}
+
+#report{
+    margin-top:20px;
+}
+
+/* RESPONSIVE */
+
+@media(max-width:768px){
+
+    body{
+        padding:15px;
+    }
+
+    #input-container{
+        width:100%;
+    }
+
+    th,
+    td{
+        font-size:12px;
+        padding:8px;
+    }
+
+    button{
+        width:100%;
+    }
+
+    #data-table,
+    #report-table{
+        display:block;
+        overflow-x:auto;
+        white-space:nowrap;
+    }
+}
