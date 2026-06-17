@@ -5,7 +5,7 @@ A web-based student performance analysis tool built using HTML, CSS, and JavaScr
 This project helps teachers and educators analyze student performance quickly by calculating percentages, determining pass/fail status, and generating overall class reports with a single click.
 
 🚀 Demo
-https://deepgit-hub.github.io/JavaScript-Mini-Project-5/
+https://karthiksound2128-ops.github.io/Student-registration-form-/
 🚀 Features
 Add student details dynamically
 
@@ -83,8 +83,8 @@ Export Reports
 Add screenshots of the project here.
 
 👨‍💻 Author
-Deepak (Cyber Deep)
+VIGNESH V
 
 Passionate Computer Science student focused on Web Development, Cybersecurity, and Problem Solving.
-
-GitHub: [Add Repository Link] Live Demo: [Add Demo Link]
+Created by 
+Vignesh V 
