@@ -1,0 +1,83 @@
+<html>
+    <head>
+        <title>Student Report Generator</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <center><br><br><br>
+            <h1>📊 Academic Analytics Dashboard📈 </h1>
+            <div id="input-container">
+        <form>
+            <table border="1">
+                <tr>
+                    <th>Name</th>
+                    <td><input type="text" id="name-input" placeholder="Enter Name"></td>
+                </tr>
+                <tr>
+                    <th>Subject One Mark</th>
+                    <td><input type="number" id="mark1-input" placeholder="Java"></td>
+                </tr>
+                 <tr>
+                    <th>Subject Two Mark</th>
+                    <td><input type="number" id="mark2-input" placeholder="Python"></td>
+                </tr>
+                 <tr>
+                    <th>Subject Three Mark</th>
+                    <td><input type="number" id="mark3-input" placeholder="OS"></td>
+                </tr>
+                 <tr>
+                    <th>Subject Four Mark</th>
+                    <td><input type="number" id="mark4-input" placeholder="DBMS"></td>
+                </tr>
+                 <tr>
+                    <th>Subject Five Mark</th>
+                    <td><input type="number" id="mark5-input" placeholder="c++"></td>
+                </tr>
+            
+                 <tr>
+                    <th>Department</th>
+                    <td><select id="department-input">
+                        <option>CS</option>
+                        <option>BCA</option>
+                        <option>MCA</option>
+                    </select></td>
+                </tr>
+                 <tr>
+                    <th>Year</th>
+                    <td><select id="year-input" class="year">
+                        <option>1st</option>
+                        <option>2nd</option>
+                        <option>3rd</option>
+                    </select></td>
+                </tr>
+               
+            </table>
+        </form>
+        </div>
+        <br>
+        <button id="add-student" onclick="addi()" type="button">Add Student</button>
+        <br><br><br><br><br> 
+        <table id="data-table" border="3">
+           <tr> <th>Name</th>
+            <th>Department</th>
+            <th>Year</th>
+            <th>Percentage</th>
+            <th>Result</th>
+    
+            </tr>
+        </table><br><br><br><br><br>    
+        <table id="report-table">
+            <tr><th>Total Students </th>
+            <th>Passed Studentsv</th>
+            <th>Failed Students </th>
+            <th>Average Percentage </th>
+            <th>Highest Percentage</th>
+            <th>Lowest Percentage</th></tr>
+            
+        </table>
+        <br><br><br>
+        <button id="report" onclick="report(event)" type="button">Generate Report</button>
+        </center>
+        <script src="script.js"></script>
+    </body>
+</html>
